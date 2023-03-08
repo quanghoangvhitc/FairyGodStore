@@ -15,5 +15,6 @@ namespace FairyGodStore.Models
         public string Content { get; set; }
         [Column("email")]
         public string Email { get; set; }
+        public Book book { get; set; }
     }
 }

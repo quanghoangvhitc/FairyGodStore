@@ -27,5 +27,10 @@ namespace FairyGodStore.Models
         public string Avatar { get; set; }
         [Column("status")]
         public int Status { get; set; }
+        public ICollection<Role> Roles { get; set; }
+        public ICollection<Comment> Comments { get; set; }
+        public ICollection<Rating> Ratings { get; set; }
+        public ICollection<Favorite> Favorites { get; set; }
+        public ICollection<Report> Reports { get; set; }
     }
 }

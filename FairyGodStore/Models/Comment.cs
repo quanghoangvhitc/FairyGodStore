@@ -19,5 +19,6 @@ namespace FairyGodStore.Models
         public long UserId { get; set; }
         [Column("parentid")]
         public long ParentId { get; set; }
+        public User User { get; set; }
     }
 }

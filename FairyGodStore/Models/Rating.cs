@@ -13,5 +13,7 @@ namespace FairyGodStore.Models
         public long BookId { get; set; }
         [Column("point")]
         public double Point { get; set; }
+        public Book book { get; set; }
+        public User user { get; set; }
     }
 }

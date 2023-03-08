@@ -28,10 +28,10 @@ namespace FairyGodStore
         {
             services.AddControllersWithViews();
 
-            //services.AddDbContext<DatabaseContext>(option =>
-            //{
-            //    option.UseSqlServer(Configuration.GetConnectionString("DefaultDB"));
-            //});
+            services.AddDbContext<DatabaseContext>(option =>
+            {
+                option.UseSqlServer(Configuration.GetConnectionString("DefaultDB"));
+            });
 
             services.AddSwaggerGen(c =>
             {

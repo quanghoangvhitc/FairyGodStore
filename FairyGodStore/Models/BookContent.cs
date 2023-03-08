@@ -17,5 +17,6 @@ namespace FairyGodStore.Models
         public string Content { get; set; }
         [Column("releasedate")]
         public string ReleaseDate { get; set; }
+        public Book book { get; set; }
     }
 }

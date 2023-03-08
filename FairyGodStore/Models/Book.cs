@@ -23,5 +23,11 @@ namespace FairyGodStore.Models
         public long Views { get; set; }
         [Column("point")]
         public long Point { get; set; }
+        public ICollection<BookContent> BookContents { get; set; }
+        public ICollection<BookComment> BookComments { get; set; }
+        public BookCategory bookCategory { get; set; }
+        public ICollection<Favorite> Favorites { get; set; }
+        public ICollection<Report> Reports { get; set; }
+        public ICollection<Rating> Ratings { get; set; }
     }
 }

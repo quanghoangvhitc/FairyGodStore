@@ -10,6 +10,16 @@ namespace FairyGodStore.Models
 {
     public class DatabaseContext : DbContext
     {
+        public DatabaseContext()
+        {
+
+        }
+
+        public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
+        {
+
+        }
+
         public virtual DbSet<User> user { get; set; }
         public virtual DbSet<Role> role { get; set; }
         public virtual DbSet<BookCategory> bookCategory { get; set; }
@@ -20,7 +30,7 @@ namespace FairyGodStore.Models
         public virtual DbSet<Comment> comment { get; set; }
         public virtual DbSet<Rating> rating { get; set; }
 
-        private const string connectionString = @"Data Source=PM167\SQLEXPRESS;Initial Catalog=FairyGodStore;Integrated Security=true;";
+        private const string connectionString = @"Data Source=.;Initial Catalog=FairyGodStore;Integrated Security=true;";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);

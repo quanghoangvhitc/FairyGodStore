@@ -11,5 +11,6 @@ namespace FairyGodStore.Models
     {
         [Column("bookid")]
         public long BookId { get; set; }
+        public Book book { get; set; }
     }
 }

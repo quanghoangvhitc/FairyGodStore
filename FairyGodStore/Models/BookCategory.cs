@@ -11,5 +11,6 @@ namespace FairyGodStore.Models
     {
         [Column("title")]
         public string Title { get; set; }
+        public ICollection<Book> books { get; set; }
     }
 }

@@ -11,6 +11,7 @@ namespace FairyGodStore.Api
     [Route("api/user")]
     public class ApiUser : ApiBase
     {
+        [HttpGet]
         public ApiResult<User> Get()
         {
             return new ApiResult<User>() 
