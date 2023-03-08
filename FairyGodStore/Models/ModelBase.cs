@@ -13,12 +13,12 @@ namespace FairyGodStore.Models
         [Column("id")]
         public long Id { get; set; }
         [Column("createdby")]
-        public long CreatedBy { get; set; }
+        public long? CreatedBy { get; set; }
         [Column("modifiedby")]
-        public long ModifiedBy { get; set; }
+        public long? ModifiedBy { get; set; }
         [Column("created")]
-        public long Created { get; set; }
+        public long? Created { get; set; }
         [Column("modified")]
-        public long modified { get; set; }
+        public long? modified { get; set; }
     }
 }
