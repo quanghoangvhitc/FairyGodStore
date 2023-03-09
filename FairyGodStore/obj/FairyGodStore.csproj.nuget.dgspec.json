@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
+    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
   },
   "projects": {
-    "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
+    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "projectUniqueName": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
         "projectName": "FairyGodStore",
-        "projectPath": "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
-        "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
-        "outputPath": "H:\\Github\\FairyGodStore\\FairyGodStore\\obj\\",
+        "projectPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "packagesPath": "C:\\Users\\hoangpq\\.nuget\\packages\\",
+        "outputPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\hoangpq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -45,6 +46,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -73,10 +82,6 @@
               "target": "Package",
               "version": "[5.0.2, )"
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -100,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

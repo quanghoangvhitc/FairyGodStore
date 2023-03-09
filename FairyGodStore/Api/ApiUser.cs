@@ -17,9 +17,9 @@ namespace FairyGodStore.Api
         public ApiUser(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
         [HttpGet]
-        public async Task<ActionResult<string>> Get()
+        public async Task<ActionResult> Get()
         {
-            var ret = await context?.user?.Include(x=>x.Roles).ToListAsync();
+            var ret = await context.user.Include(x=>x.Roles).Include(c=>c.Comments).Include(r=>r.Ratings).ToListAsync();
             //return new ApiResult<User>() 
             //{ 
             //    Status = true, 
@@ -28,13 +28,13 @@ namespace FairyGodStore.Api
             //    TimeNow = DateTime.Now.Ticks
             //};
 
-            return Ok(JsonConvert.SerializeObject(new ApiResults<User>()
+            return Ok(new ApiResults<User>()
             {
                 Status = true,
                 ErrMess = new KeyValuePair<string, string>("", ""),
                 Data = ret,
                 TimeNow = DateTime.Now.Ticks
-            }));
+            });
         }
     }
 }
