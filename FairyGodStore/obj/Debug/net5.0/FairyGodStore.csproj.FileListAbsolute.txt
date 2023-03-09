@@ -312,6 +312,9 @@ C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\FairyGodStor
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\FairyGodStore.Views.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\FairyGodStore.Views.pdb
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Humanizer.dll
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
@@ -341,6 +344,7 @@ C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.Vi
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -450,8 +454,4 @@ C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\net5.0\FairyGodStor
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\net5.0\ref\FairyGodStore.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\net5.0\FairyGodStore.pdb
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\net5.0\FairyGodStore.genruntimeconfig.cache
-C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
-C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
-C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\net5.0\FairyGodStore.csproj.AssemblyReference.cache
-C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
