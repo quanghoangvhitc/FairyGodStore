@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FairyGodStore</title>
+    <link href="~/css/loginstyle.css" rel="stylesheet" />
+</head>
+<body>
+
+    <form asp-action="Authenticate" method="post">
+
+        <div class="container">
+            <label for="uname"><b>Tài khoản</b></label>
+            <input type="text" placeholder="Tên đăng nhập, thư điện tử, ..." autofocus name="uname" required>
+
+            <label for="psw"><b>Mật khẩu</b></label>
+            <input type="password" placeholder="Mật khẩu" name="psw" required>
+
+            <button type="submit"><b>Đăng nhập</b></button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
+            </label>
+        </div>
+    </form>
+
+</body>
+</html>
