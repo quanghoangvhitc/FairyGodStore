@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.OpenApi.Models;
 using FairyGodStore.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.OpenApi.Models;
 
 namespace FairyGodStore
 {
@@ -85,8 +85,18 @@ namespace FairyGodStore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseCookiePolicy();
+            //app.UseSession();
 
             app.UseRouting();
+
+            app.Use(async (context, next) =>
+            {
+                var JWToken = context.Request.Cookies["Authorization"];
+                if (!string.IsNullOrEmpty(JWToken))
+                    context.Request.Headers.Add("Authorization", "Bearer " + JWToken);
+                await next();
+            });
 
             app.UseAuthorization();
 

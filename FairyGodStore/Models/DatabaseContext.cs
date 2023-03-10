@@ -30,13 +30,12 @@ namespace FairyGodStore.Models
         public virtual DbSet<Comment> comment { get; set; }
         public virtual DbSet<Rating> rating { get; set; }
 
-        private const string connectionString = @"Data Source=PM167\SQLEXPRESS;Initial Catalog=FairyGodStore;Integrated Security=true;";
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(connectionString);
+                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=fairygodstore_db;Integrated Security=true;");
                 optionsBuilder.UseLoggerFactory(GetLoggerFactory());
             }
         }

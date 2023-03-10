@@ -19,6 +19,6 @@ namespace FairyGodStore.Models
         [Column("created")]
         public long? Created { get; set; }
         [Column("modified")]
-        public long? modified { get; set; }
+        public long? Modified { get; set; }
     }
 }

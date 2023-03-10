@@ -1,0 +1,9 @@
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.csproj.AssemblyReference.cache
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.GeneratedMSBuildEditorConfig.editorconfig
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.AssemblyInfoInputs.cache
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.AssemblyInfo.cs
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.csproj.CoreCompileInputs.cache
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.MvcApplicationPartsAssemblyInfo.cs
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.MvcApplicationPartsAssemblyInfo.cache
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.RazorAssemblyInfo.cache
+C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\obj\Debug\netcoreapp3.1\FairyGodStore.RazorAssemblyInfo.cs
