@@ -41,5 +41,61 @@ namespace FairyGodStore.Api
                 return new ApiResult<User>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
             }));
         }
+
+        [HttpPost]
+        public async Task<ActionResult> Post([FromBody] User user)
+        {
+            return Ok(await ApiResponse(async () =>
+            {
+                await context.user.AddAsync(user);
+                await context.SaveChangesAsync();
+                return new ApiResult<object>(data: null, status: true);
+            }));
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Put(long id, [FromBody] User user)
+        {
+            return Ok(await ApiResponse(async () =>
+            {
+                if (id != user.Id)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_VALID());
+
+                var db = await context.user.SingleOrDefaultAsync(b => b.Id.Equals(id));
+                if (db == null)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_EMPTY);
+
+                db.FullName = user.FullName;
+                db.Email = user.Email;
+                db.Address = user.Address;
+                db.IdentityCard = user.IdentityCard;
+                db.Avatar = user.Avatar;
+                db.PhoneNumber = user.PhoneNumber;
+                db.Status = user.Status;
+                db.Gender = user.Gender;
+                db.ModifiedBy = user.ModifiedBy;
+                db.Modified = user.Modified;
+
+                await context.SaveChangesAsync();
+
+                return new ApiResult<object>(data: null, status: true);
+            }));
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(long id)
+        {
+            return Ok(await ApiResponse(async () =>
+            {
+                var b = await context.user.SingleOrDefaultAsync(b => b.Id.Equals(id));
+                if (b == null)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_EMPTY);
+
+                context.Remove(b);
+                await context.SaveChangesAsync();
+
+                return new ApiResult<object>(data: null, status: true);
+            }));
+        }
     }
 }
