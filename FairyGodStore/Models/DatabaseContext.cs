@@ -29,6 +29,7 @@ namespace FairyGodStore.Models
         public virtual DbSet<Favorite> favorite { get; set; }
         public virtual DbSet<Comment> comment { get; set; }
         public virtual DbSet<Rating> rating { get; set; }
+        public virtual DbSet<Report> report { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

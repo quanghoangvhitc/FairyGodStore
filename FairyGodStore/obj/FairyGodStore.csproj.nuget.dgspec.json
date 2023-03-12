@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
+    "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
   },
   "projects": {
-    "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
+    "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "projectUniqueName": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
         "projectName": "FairyGodStore",
-        "projectPath": "H:\\Github\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
-        "packagesPath": "C:\\Users\\Hoang\\.nuget\\packages\\",
-        "outputPath": "H:\\Github\\FairyGodStore\\FairyGodStore\\obj\\",
+        "projectPath": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
