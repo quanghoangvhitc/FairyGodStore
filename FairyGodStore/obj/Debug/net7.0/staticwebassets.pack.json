@@ -17,10 +17,6 @@
       "PackagePath": "staticwebassets\\image\\bg-tien-hiep.jpg"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\400cd800-82de-4d3d-86df-88a4cfb6df6e.jpg",
-      "PackagePath": "staticwebassets\\image\\bookcover\\400cd800-82de-4d3d-86df-88a4cfb6df6e.jpg"
-    },
-    {
       "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
