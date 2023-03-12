@@ -35,7 +35,7 @@ namespace FairyGodStore.Models
             //base.OnConfiguring(optionsBuilder);
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=.;Initial Catalog=fairygodstore_db;Integrated Security=true;");
+                optionsBuilder.UseSqlServer("Data Source=sql.bsite.net\\MSSQL2016;Initial Catalog=fairygodstore_db;User Id=fairygodstore_db;Password=nhumlesonthach;TrustServerCertificate=true;");
                 optionsBuilder.UseLoggerFactory(GetLoggerFactory());
             }
         }

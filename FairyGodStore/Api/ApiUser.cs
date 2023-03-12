@@ -1,4 +1,5 @@
 ﻿using FairyGodStore.Models;
+using FairyGodStore.ViewModels;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using static FairyGodStore.Api.ApiBase;
 
 namespace FairyGodStore.Api
 {
@@ -17,24 +19,27 @@ namespace FairyGodStore.Api
         public ApiUser(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
         [HttpGet]
-        public async Task<ActionResult> Get()
+        public async Task<ActionResult> Index()
         {
-            var ret = await context.user.Include(x=>x.Roles).Include(c=>c.Comments).Include(r=>r.Ratings).ToListAsync();
-            //return new ApiResult<User>() 
-            //{ 
-            //    Status = true, 
-            //    ErrMess = new KeyValuePair<string, string>("",""), 
-            //    Data = new User() { FullName = "HoàngPQ" }, 
-            //    TimeNow = DateTime.Now.Ticks
-            //};
-
-            return Ok(new ApiResults<User>()
+            return Ok(await ApiResponse(async () =>
             {
-                Status = true,
-                ErrMess = new KeyValuePair<string, string>("", ""),
-                Data = ret,
-                TimeNow = DateTime.Now.Ticks
-            });
+                var ret = await context.user.ToListAsync();
+                return new ApiResults<User>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
+            }));
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult> Get(long id)
+        {
+            return Ok(await ApiResponse(async () =>
+            {
+                var ret = await context.user
+                                        .Include(u => u.Roles)
+                                        .Include(u=>u.Favorites)
+                                        .Include(u => u.Reports)
+                                        .SingleOrDefaultAsync(u => u.Id.Equals(id));
+                return new ApiResult<User>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
+            }));
         }
     }
 }

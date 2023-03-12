@@ -12,6 +12,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace FairyGodStore.Api
 {
@@ -25,6 +26,11 @@ namespace FairyGodStore.Api
             _KeyBytes = Encoding.UTF8.GetBytes(secretKey);
         }
 
+        [HttpGet("/api/authen")]
+        public IActionResult Index()
+        {
+            return Ok(new ApiResult<object>(data: null, status: false, MessageViewModel.AUTHEN));
+        }
 
         private LoginTokenViewModel CheckLogin(LoginViewModel loginViewModel, bool IsGuest = false)
         {
@@ -75,13 +81,7 @@ namespace FairyGodStore.Api
 
             LoginTokenViewModel data = CheckLogin(loginViewModel, true);
 
-            return Ok(new ApiResult<LoginTokenViewModel>()
-            {
-                Status = true,
-                ErrMess = data == null ? MessageViewModel.LOGIN_FAIL: MessageViewModel.LOGIN_SUCCESS,
-                Data = data,
-                TimeNow = DateTime.Now.Ticks
-            });
+            return Ok(new ApiResult<LoginTokenViewModel>(data: data, status: true, data == null ? MessageViewModel.LOGIN_FAIL : MessageViewModel.LOGIN_SUCCESS));
         }
 
         [HttpPost("/api/authen/login")]
@@ -89,13 +89,7 @@ namespace FairyGodStore.Api
         {
             LoginTokenViewModel data = CheckLogin(loginViewModel);
 
-            return Ok(new ApiResult<LoginTokenViewModel>()
-            {
-                Status = true,
-                ErrMess = data == null ? MessageViewModel.LOGIN_FAIL : MessageViewModel.LOGIN_SUCCESS,
-                Data = data,
-                TimeNow = DateTime.Now.Ticks
-            });
+            return Ok(new ApiResult<LoginTokenViewModel>(data: data, status: true, data == null ? MessageViewModel.LOGIN_FAIL : MessageViewModel.LOGIN_SUCCESS));
         }
     }
 }

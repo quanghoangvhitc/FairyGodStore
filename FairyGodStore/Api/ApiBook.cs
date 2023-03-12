@@ -1,15 +1,18 @@
 ﻿using FairyGodStore.Models;
+using FairyGodStore.ViewModels;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace FairyGodStore.Api
 {
+    [Route("api/book")]
     public class ApiBook : ApiBase
     {
         public ApiBook(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
@@ -17,54 +20,79 @@ namespace FairyGodStore.Api
         [HttpGet]
         public async Task<ActionResult> Get()
         {
-            var ret = await context.book.ToListAsync();
-            //return new ApiResult<User>() 
-            //{ 
-            //    Status = true, 
-            //    ErrMess = new KeyValuePair<string, string>("",""), 
-            //    Data = new User() { FullName = "HoàngPQ" }, 
-            //    TimeNow = DateTime.Now.Ticks
-            //};
-
-            return Ok(new ApiResults<Book>()
+            return Ok(await ApiResponse(async () =>
             {
-                Status = true,
-                ErrMess = new KeyValuePair<string, string>("", ""),
-                Data = ret,
-                TimeNow = DateTime.Now.Ticks
-            });
+                var ret = await context.book.OrderByDescending(b => b.Modified).ToListAsync();
+                return new ApiResults<Book>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
+            }));
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(long id)
         {
-            var ret = await context.book.Where(x => x.Id == id).FirstOrDefaultAsync();
-
-            return Ok(new ApiResult<Book>()
+            return Ok(await ApiResponse(async () =>
             {
-                Status = true,
-                ErrMess = new KeyValuePair<string, string>("", ""),
-                Data = ret,
-                TimeNow = DateTime.Now.Ticks
-            });
+                var ret = await context.book
+                                        .Include(b => b.BookComments)
+                                        .Include(b => b.BookContents)
+                                        .Include(b => b.Favorites)
+                                        .Include(b => b.Ratings)
+                                        .SingleOrDefaultAsync(b => b.Id.Equals(id));
+                return new ApiResult<Book>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
+            }));
         }
 
         [HttpPost]
-        public ActionResult Post([FromBody] Book book)
+        public async Task<ActionResult> Post([FromBody] Book book)
         {
-            return Ok(book);
+            return Ok(await ApiResponse(async () =>
+            {
+                await context.book.AddAsync(book);
+                await context.SaveChangesAsync();
+                return new ApiResult<object>(data: null, status: true);
+            }));
         }
 
         [HttpPut("{id}")]
-        public ActionResult Put(long id, [FromBody] Book book)
+        public async Task<ActionResult> Put(long id, [FromBody] Book book)
         {
-            return Ok(book);
+            return Ok(await ApiResponse(async () =>
+            {
+                if (id != book.Id)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_VALID());
+
+                var db = await context.book.SingleOrDefaultAsync(b => b.Id.Equals(id));
+                if (db == null)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_EMPTY);
+
+                db.Title = book.Title;
+                db.Author = book.Author;
+                db.ReleaseDate = book.ReleaseDate;
+                db.Thumbnail = book.Thumbnail;
+                db.SortDescription = book.SortDescription;
+                db.ModifiedBy = book.ModifiedBy;
+                db.Modified = book.Modified;
+
+                await context.SaveChangesAsync();
+
+                return new ApiResult<object>(data: null, status: true);
+            }));
         }
 
         [HttpDelete("{id}")]
-        public ActionResult Delete(long id)
+        public async Task<ActionResult> Delete(long id)
         {
-            return Ok(id);
+            return Ok(await ApiResponse(async () =>
+            {
+                var b = await context.book.SingleOrDefaultAsync(b => b.Id.Equals(id));
+                if (b == null)
+                    return new ApiResult<object>(data: null, status: false, errMess: MessageViewModel.DATA_EMPTY);
+
+                context.Remove(b);
+                await context.SaveChangesAsync();
+
+                return new ApiResult<object>(data: null, status: true);
+            }));
         }
     }
 }
