@@ -1,155 +1,159 @@
 {
   "Files": [
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\loginstyle.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\loginstyle.css",
       "PackagePath": "staticwebassets\\css\\loginstyle.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\site.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\favicon.ico",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bg-tien-hiep.jpg",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bg-tien-hiep.jpg",
       "PackagePath": "staticwebassets\\image\\bg-tien-hiep.jpg"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\400cd800-82de-4d3d-86df-88a4cfb6df6e.jpg",
+      "PackagePath": "staticwebassets\\image\\bookcover\\400cd800-82de-4d3d-86df-88a4cfb6df6e.jpg"
+    },
+    {
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
