@@ -1,5 +1,6 @@
 ﻿using FairyGodStore.Models;
 using FairyGodStore.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
@@ -15,6 +16,7 @@ using static System.Net.WebRequestMethods;
 
 namespace FairyGodStore.Controllers
 {
+    [Authorize]
     public class BookController : BaseController
     {
         public BookController(DatabaseContext context, IConfiguration configuration) : base(context, configuration)
@@ -26,11 +28,13 @@ namespace FairyGodStore.Controllers
             return View();
         }
 
+        [Authorize(Roles = $"{SecurityRoles.Admin},{SecurityRoles.Manager}")]
         public IActionResult InputBook()
         {
             return View();
         }
 
+        [Authorize(Roles = $"{SecurityRoles.Admin},{SecurityRoles.Manager}")]
         [HttpPost]
         public async Task<IActionResult> InputBook(BookViewModel bookViewModel, IFormFile postedFile)
         {
@@ -60,7 +64,7 @@ namespace FairyGodStore.Controllers
                     Title = bookViewModel.Title,
                     Author = bookViewModel.Author,
                     SortDescription = bookViewModel.SortDescription,
-                    ReleaseDate = bookViewModel.ReleaseDate.Millisecond,
+                    PublicationDate = bookViewModel.PublicationDate,
                     CreatedBy = userId,
                     Created = timeNow,
                     ModifiedBy = userId,

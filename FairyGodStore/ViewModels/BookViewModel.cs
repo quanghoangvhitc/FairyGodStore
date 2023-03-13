@@ -9,7 +9,7 @@ namespace FairyGodStore.ViewModels
     {
         public string Title { get; set; }
         public string Author { get; set; }
-        public DateTime ReleaseDate { get; set; }
+        public int PublicationDate { get; set; }
         public string SortDescription { get; set; }
         public BookCategory bookCategory { get; set; }
     }

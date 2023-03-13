@@ -1,5 +1,6 @@
 ﻿using FairyGodStore.Models;
 using FairyGodStore.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ using static FairyGodStore.Api.ApiBase;
 namespace FairyGodStore.Api
 {
     [Route("api/user")]
+    [Authorize]
     public class ApiUser : ApiBase
     {
         public ApiUser(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
@@ -27,7 +29,7 @@ namespace FairyGodStore.Api
                 return new ApiResults<User>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
             }));
         }
-
+        
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(long id)
         {

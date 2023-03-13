@@ -15,6 +15,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using FairyGodStore.MiddleWares;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Net;
 
 namespace FairyGodStore
 {
@@ -37,32 +40,68 @@ namespace FairyGodStore
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultDB"));
             });
 
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>
+            {
+                options.SaveToken = true;
+                options.RequireHttpsMetadata = false;
+                options.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = Configuration["JWT:ValidAudience"],
+                    ValidIssuer = Configuration["JWT:ValidIssuer"],
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["JWT:Secret"]))
+                };
+            });
+
             //services.AddSwaggerGen(c =>
             //{
-            //    var jwtSecurityScheme = new OpenApiSecurityScheme
+            //    //var jwtSecurityScheme = new OpenApiSecurityScheme
+            //    //{
+            //    //    BearerFormat = "JWT",
+            //    //    Name = "Authorization",
+            //    //    In = ParameterLocation.Header,
+            //    //    Type = SecuritySchemeType.Http,
+            //    //    Scheme = JwtBearerDefaults.AuthenticationScheme,
+            //    //    Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
+
+            //    //    Reference = new OpenApiReference
+            //    //    {
+            //    //        Id = JwtBearerDefaults.AuthenticationScheme,
+            //    //        Type = ReferenceType.SecurityScheme
+            //    //    }
+            //    //};
+
+            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "FairyGodStore", Version = "v1" });
+
+            //    //c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+            //    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
             //    {
-            //        BearerFormat = "JWT",
-            //        Name = "JWT Authentication",
             //        In = ParameterLocation.Header,
-            //        Type = SecuritySchemeType.Http,
-            //        Scheme = JwtBearerDefaults.AuthenticationScheme,
-            //        Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
-
-            //        Reference = new OpenApiReference
-            //        {
-            //            Id = JwtBearerDefaults.AuthenticationScheme,
-            //            Type = ReferenceType.SecurityScheme
-            //        }
-            //    };
-
-            //    c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
+            //        Description = "Please insert JWT with Bearer into field",
+            //        Name = "Authorization",
+            //        Type = SecuritySchemeType.Http
+            //    });
 
             //    c.AddSecurityRequirement(new OpenApiSecurityRequirement
             //    {
-            //        { jwtSecurityScheme, Array.Empty<string>() }
+            //        {
+            //            new OpenApiSecurityScheme
+            //            {
+            //               Reference = new OpenApiReference
+            //               {
+            //                 Type = ReferenceType.SecurityScheme,
+            //                 Id = "Bearer"
+            //               }
+            //            },
+            //            new string[] { }
+            //        }
             //    });
-
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "FairyGodStore", Version = "v1" });
             //});
 
             services.AddSwaggerGen(c =>
@@ -89,12 +128,37 @@ namespace FairyGodStore
             app.UseCookiePolicy();
             //app.UseSession();
 
+            app.Use(async (context, next) =>
+            {
+                var JWToken = context.Request.Cookies["Authorization"];
+                if (!JWToken.IsEmpty())
+                    context.Request.Headers.Add("Authorization", "Bearer " + JWToken);
+
+                await next();
+            });
+
             app.UseRouting();
 
-            //app.UseAuthentication();
-            //app.UseAuthorization();
+            app.UseAuthentication();
 
-            app.UseMiddleware<UserLoginMiddleWare>();
+            app.UseStatusCodePages(context =>
+            {
+                var response = context.HttpContext.Response;
+                if (response.StatusCode == (int)HttpStatusCode.Unauthorized ||
+                    response.StatusCode == (int)HttpStatusCode.Forbidden)
+                {
+                    if (context.HttpContext.Request.Path.Value.ToLower().StartsWith("/api"))
+                        response.Redirect("/api/authen");
+                    else
+                        response.Redirect("/authen");
+                }
+                return Task.CompletedTask;
+            });
+
+            app.UseAuthorization();
+
+            //app.UseMiddleware<UserLoginMiddleWare>();
+            app.UseMiddleware<SwaggerMiddleware>();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>

@@ -63,7 +63,7 @@ namespace FairyGodStore.Api
 
                 db.Title = book.Title;
                 db.Author = book.Author;
-                db.ReleaseDate = book.ReleaseDate;
+                db.PublicationDate = book.PublicationDate;
                 db.Thumbnail = book.Thumbnail;
                 db.SortDescription = book.SortDescription;
                 db.ModifiedBy = book.ModifiedBy;

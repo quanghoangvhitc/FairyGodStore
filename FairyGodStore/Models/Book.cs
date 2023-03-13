@@ -13,8 +13,8 @@ namespace FairyGodStore.Models
         public string Title { get; set; }
         [Column("author")]
         public string Author { get; set; }
-        [Column("releasedate")]
-        public long ReleaseDate { get; set; }
+        [Column("publicationdate")]
+        public int PublicationDate { get; set; }
         [Column("thumbnail")]
         public string Thumbnail { get; set; }
         [Column("sortdescription")]
@@ -23,6 +23,10 @@ namespace FairyGodStore.Models
         public long Views { get; set; }
         [Column("point")]
         public long Point { get; set; }
+        [Column("chapter")]
+        public int Chapter { get; set; }
+        [Column("chapterdate")] 
+        public long ChapterDate { get; set; }
         public ICollection<BookContent> BookContents { get; set; }
         public ICollection<BookComment> BookComments { get; set; }
         public BookCategory bookCategory { get; set; }

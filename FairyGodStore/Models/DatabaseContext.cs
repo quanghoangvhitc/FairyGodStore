@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System;
@@ -10,14 +11,15 @@ namespace FairyGodStore.Models
 {
     public class DatabaseContext : DbContext
     {
+        private readonly IConfiguration configuration;
         public DatabaseContext()
         {
 
         }
 
-        public DatabaseContext(DbContextOptions<DatabaseContext> options) : base(options)
+        public DatabaseContext(DbContextOptions<DatabaseContext> options, IConfiguration configuration) : base(options)
         {
-
+            this.configuration = configuration;
         }
 
         public virtual DbSet<User> user { get; set; }
@@ -34,11 +36,8 @@ namespace FairyGodStore.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Data Source=sql.bsite.net\\MSSQL2016;Initial Catalog=fairygodstore_db;User Id=fairygodstore_db;Password=nhumlesonthach;TrustServerCertificate=true;");
-                optionsBuilder.UseLoggerFactory(GetLoggerFactory());
-            }
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultDB"));
+            optionsBuilder.UseLoggerFactory(GetLoggerFactory());
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
