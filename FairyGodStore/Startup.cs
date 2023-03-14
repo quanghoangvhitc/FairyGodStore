@@ -135,6 +135,8 @@ namespace FairyGodStore
                     context.Request.Headers.Add("Authorization", "Bearer " + JWToken);
 
                 await next();
+                if (context.Response.StatusCode == 404 && !context.Response.HasStarted)
+                    context.Response.Redirect("/error/404");
             });
 
             app.UseRouting();

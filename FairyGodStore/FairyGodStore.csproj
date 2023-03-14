@@ -13,6 +13,7 @@
     <EmbeddedResource Remove="Extensions\**" />
     <None Remove="Areas\Admin\Views\**" />
     <None Remove="Extensions\**" />
+    <None Remove="Views\Error\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -35,6 +36,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\image\bookcover\" />
+    <Folder Include="Views\Error\" />
   </ItemGroup>
 
 </Project>
