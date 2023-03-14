@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MiHGDNEMZQ+x1sxIxg4RuEWJ2mRD8LGj7+r2MO1uCbM=",
+  "Hash": "sPZbpt1GM0hSngiJgn+sIa7V7efyMb2dFodqNUpFiSA=",
   "Source": "FairyGodStore",
   "BasePath": "_content/FairyGodStore",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/image/bookcover/2b131fe4-aff6-4146-aaef-0609e606dc01.jpg"
+    },
+    {
+      "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/img_avatar2.png",
+      "SourceId": "FairyGodStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/",
+      "BasePath": "_content/FairyGodStore",
+      "RelativePath": "image/img_avatar2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/image/img_avatar2.png"
     },
     {
       "Identity": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/js/site.js",

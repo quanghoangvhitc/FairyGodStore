@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/image/bookcover/2b131fe4-aff6-4146-aaef-0609e606dc01.jpg"
     },
     {
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/img_avatar2.png",
+      "PackagePath": "staticwebassets/image/img_avatar2.png"
+    },
+    {
       "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

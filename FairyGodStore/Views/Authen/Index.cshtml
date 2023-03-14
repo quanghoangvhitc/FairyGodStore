@@ -14,18 +14,23 @@
 <body>
 
     <form asp-action="Authenticate" method="post">
+        <div class="imgcontainer">
+            <img src="../image/img_avatar2.png" alt="Avatar" class="avatar">
+        </div>
 
         <div class="container">
-            <label for="uname"><b>Tài khoản</b></label>
-            <input type="text" placeholder="Tên đăng nhập, thư điện tử, ..." autofocus name="Username" required>
+            <label ctype="title"><b>LOG IN</b></label>
+            <input type="text" placeholder="Username, email, ..." autofocus name="Username" required>
 
-            <label for="psw"><b>Mật khẩu</b></label>
-            <input type="password" placeholder="Mật khẩu" name="Password" required>
+            <input type="password" placeholder="Password" name="Password" required>
 
-            <button type="submit"><b>Đăng nhập</b></button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Nhớ mật khẩu
+            <label ctype="checkbox">
+                <input type="checkbox" name="remember"> Remember me
             </label>
+
+            <button type="submit"><b>LOGIN</b></button>
+
+            <a ctype="forgotpwd" href="#">Forgot Password?</a>
         </div>
     </form>
 
