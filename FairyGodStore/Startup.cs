@@ -125,6 +125,14 @@ namespace FairyGodStore
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.Use(async (context, next) =>
+            {
+                await next();
+                if (context.Response.StatusCode == 404 && !context.Response.HasStarted)
+                    context.Response.Redirect("/error/404");
+            });
+
             app.UseCookiePolicy();
             //app.UseSession();
 
@@ -135,8 +143,6 @@ namespace FairyGodStore
                     context.Request.Headers.Add("Authorization", "Bearer " + JWToken);
 
                 await next();
-                if (context.Response.StatusCode == 404 && !context.Response.HasStarted)
-                    context.Response.Redirect("/error/404");
             });
 
             app.UseRouting();
