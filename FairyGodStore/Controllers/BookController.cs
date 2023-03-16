@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Diagnostics;
@@ -16,16 +17,16 @@ using static System.Net.WebRequestMethods;
 
 namespace FairyGodStore.Controllers
 {
-    [Authorize]
     public class BookController : BaseController
     {
-        public BookController(DatabaseContext context, IConfiguration configuration) : base(context, configuration)
-        {
-        }
+        public BookController(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
-        public IActionResult Index()
+        [HttpGet("book")]
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var books = await context.book.ToListAsync();
+
+            return View(books);
         }
 
         [Authorize(Roles = $"{SecurityRoles.Admin},{SecurityRoles.Manager}")]
