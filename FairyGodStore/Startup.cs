@@ -165,8 +165,8 @@ namespace FairyGodStore
 
             app.UseAuthorization();
 
-            //app.UseMiddleware<UserLoginMiddleWare>();
             app.UseMiddleware<SwaggerMiddleware>();
+            app.UseMiddleware<UserLoginMiddleWare>();
 
             app.UseSwagger();
             app.UseSwaggerUI(c =>

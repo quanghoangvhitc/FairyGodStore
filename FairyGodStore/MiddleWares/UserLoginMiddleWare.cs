@@ -1,9 +1,11 @@
-﻿using FairyGodStore.ViewModels;
+﻿using FairyGodStore.Models;
+using FairyGodStore.ViewModels;
 using Microsoft.AspNetCore.Http;
 using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.IO;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace FairyGodStore.MiddleWares
@@ -49,26 +51,39 @@ namespace FairyGodStore.MiddleWares
             JwtSecurityToken jwtSecurityToken = GetJwtSecurityToken(JwtToken);
             if (jwtSecurityToken != null && jwtSecurityToken.ValidTo > DateTime.UtcNow)
             {
-                if (context.Request.Path.Value.ToLower().StartsWith("/authen"))
-                    context.Response.Redirect("/");
-            }
-            else
-            {
-                if (context.Request.Path.Value.ToLower().StartsWith("/api"))
+                string roles = jwtSecurityToken.Claims.SingleOrDefault(c => c.Type.Equals("roles"))?.Value;
+                if (roles.Split(',').Any(r => new[] { "admin", "manager" }.Any(m => m.Equals(r.ToLower()))))
                 {
-                    if (!context.Request.Path.Value.ToLower().StartsWith("/api/authen"))
+                    string url = context.Request.Path.Value.ToLower();
+                    if (!url.Contains("/admin"))
                     {
-                        context.Response.Redirect("/api/authen");
+                        context.Response.Redirect($"/admin{(url.Equals("/") ? "" : url)}");
                         return;
                     }
                 }
-                else
-                {
-                    if (context.Request.Path.Value != "/"
-                        && !context.Request.Path.Value.ToLower().StartsWith("/authen"))
-                        context.Response.Redirect("/authen");
-                }
             }
+            //if (jwtSecurityToken != null && jwtSecurityToken.ValidTo > DateTime.UtcNow)
+            //{
+            //    if (context.Request.Path.Value.ToLower().StartsWith("/authen"))
+            //        context.Response.Redirect("/");
+            //}
+            //else
+            //{
+            //    if (context.Request.Path.Value.ToLower().StartsWith("/api"))
+            //    {
+            //        if (!context.Request.Path.Value.ToLower().StartsWith("/api/authen"))
+            //        {
+            //            context.Response.Redirect("/api/authen");
+            //            return;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        if (context.Request.Path.Value != "/"
+            //            && !context.Request.Path.Value.ToLower().StartsWith("/authen"))
+            //            context.Response.Redirect("/authen");
+            //    }
+            //}
 
             await _next(context);
         }

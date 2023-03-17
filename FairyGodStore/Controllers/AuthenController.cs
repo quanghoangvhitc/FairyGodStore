@@ -96,6 +96,9 @@ namespace FairyGodStore.Controllers
                 ViewBag.Email = user.Email;
                 ViewBag.Roles = user.Roles;
 
+                if (user.Roles.Any(r=> new[] { "admin", "manager" }.Any(m=>m.Equals(r.Title.ToLower()))))
+                    return Redirect("/admin");
+
                 return Redirect("/");
             }
             return View("Views/Authen/Index.cshtml");
