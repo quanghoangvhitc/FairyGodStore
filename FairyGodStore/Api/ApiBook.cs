@@ -30,7 +30,7 @@ namespace FairyGodStore.Api
             {
                 var ret = await context.book
                                         .Include(b => b.BookComments)
-                                        .Include(b => b.BookContents)
+                                        .Include(b => b.BookChapters)
                                         .Include(b => b.Favorites)
                                         .Include(b => b.Ratings)
                                         .SingleOrDefaultAsync(b => b.Id.Equals(id));

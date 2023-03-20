@@ -26,6 +26,7 @@ namespace FairyGodStore.Models
         public virtual DbSet<Role> role { get; set; }
         public virtual DbSet<BookCategory> bookCategory { get; set; }
         public virtual DbSet<Book> book { get; set; }
+        public virtual DbSet<BookChapter> bookChapter { get; set; }
         public virtual DbSet<BookContent> bookContent { get; set; }
         public virtual DbSet<BookComment> bookComment { get; set; }
         public virtual DbSet<Favorite> favorite { get; set; }

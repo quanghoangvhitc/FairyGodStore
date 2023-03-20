@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VG8LvQwi404xZSrIoG14W2q68pgCV6V5cpasC7xfDNg=",
+  "Hash": "HZWAJbx71uxM6ntobyNJmgSOcLZBBILnd1nDydrONNo=",
   "Source": "FairyGodStore",
   "BasePath": "_content/FairyGodStore",
   "Mode": "Default",
@@ -134,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\bg-tien-hiep.jpg"
-    },
-    {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\2b131fe4-aff6-4146-aaef-0609e606dc01.jpg",
-      "SourceId": "FairyGodStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
-      "BasePath": "_content/FairyGodStore",
-      "RelativePath": "image/bookcover/2b131fe4-aff6-4146-aaef-0609e606dc01.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\image\\bookcover\\2b131fe4-aff6-4146-aaef-0609e606dc01.jpg"
     },
     {
       "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\img_avatar2.png",

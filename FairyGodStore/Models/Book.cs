@@ -27,7 +27,9 @@ namespace FairyGodStore.Models
         public int Chapter { get; set; }
         [Column("chapterdate")] 
         public long ChapterDate { get; set; }
-        public ICollection<BookContent> BookContents { get; set; }
+        [Column("linkdata")]
+        public string LinkData { get; set; }
+        public ICollection<BookChapter> BookChapters { get; set; }
         public ICollection<BookComment> BookComments { get; set; }
         public BookCategory bookCategory { get; set; }
         public ICollection<Favorite> Favorites { get; set; }

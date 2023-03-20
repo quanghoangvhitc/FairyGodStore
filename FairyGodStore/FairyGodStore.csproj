@@ -5,13 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Admin\Views\**" />
     <Compile Remove="Extensions\**" />
-    <Content Remove="Areas\Admin\Views\**" />
     <Content Remove="Extensions\**" />
-    <EmbeddedResource Remove="Areas\Admin\Views\**" />
     <EmbeddedResource Remove="Extensions\**" />
-    <None Remove="Areas\Admin\Views\**" />
     <None Remove="Extensions\**" />
     <None Remove="Views\Error\" />
   </ItemGroup>

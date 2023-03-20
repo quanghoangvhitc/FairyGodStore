@@ -9,14 +9,10 @@ namespace FairyGodStore.Models
     [Table("bookcontent")]
     public class BookContent : ModelBase
     {
-        [Column("bookid")]
-        public long BookId { get; set; }
-        [Column("chapter")]
-        public int Chapter { get; set; }
+        [Column("bookchapterid")]
+        public long BookChapterId { get; set; }
         [Column("content")]
         public string Content { get; set; }
-        [Column("releasedate")]
-        public long ReleaseDate { get; set; }
-        public Book book { get; set; }
+        public BookChapter bookchapter { get; set; }
     }
 }

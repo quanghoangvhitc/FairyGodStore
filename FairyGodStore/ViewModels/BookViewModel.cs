@@ -12,5 +12,6 @@ namespace FairyGodStore.ViewModels
         public int PublicationDate { get; set; }
         public string SortDescription { get; set; }
         public BookCategory bookCategory { get; set; }
+        public string LinkData { get; set; }
     }
 }
