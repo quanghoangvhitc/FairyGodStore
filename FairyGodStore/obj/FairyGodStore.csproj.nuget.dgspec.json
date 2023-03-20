@@ -1,33 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
+    "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
   },
   "projects": {
-    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
+    "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "projectUniqueName": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
         "projectName": "FairyGodStore",
-        "projectPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
-        "packagesPath": "C:\\Users\\hoangpq\\.nuget\\packages\\",
-        "outputPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\obj\\",
+        "projectPath": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "packagesPath": "C:\\Users\\quang\\.nuget\\packages\\",
+        "outputPath": "D:\\Git\\NetCore\\FairyGodStore\\FairyGodStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\hoangpq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\quang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -106,7 +105,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

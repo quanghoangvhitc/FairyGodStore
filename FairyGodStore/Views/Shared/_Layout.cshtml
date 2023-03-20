@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/sharedlayoutfooter.css" />
+    <link rel="stylesheet" href="~/css/MenuDropDownStyle.css" />
 </head>
 <body>
     <header>
@@ -15,17 +16,15 @@
             <div>
                 @if (Context.Request.IsAdmin())
                 {
-                    <button class="navbar-toggler d-block" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                    <button onclick="myFunction()" class="dropbtn">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-                        <ul class="nav justify-content-end flex-row-reverse">
-                            <li class="nav-item">
-                                <a class="nav-link my-2 my-sm-0" href="/admin">Admin Site</a>
-                            </li>
-                        </ul>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="/admin">Admin Site</a>
                     </div>
                 }
 
@@ -58,6 +57,24 @@
             &copy; 2023 - FairyGodStore @*- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
         </div>
     </footer>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
