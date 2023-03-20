@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/sharedlayoutfooter.css" />
+    <link rel="stylesheet" href="~/css/adminlayoutstyle.css" />
 </head>
 <body>
     <header>
@@ -21,27 +22,24 @@
                     </button>
                 }
 
-
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FairyGodStore @(string.IsNullOrEmpty(ViewBag.brand) ? "" : " - " + ViewBag.brand) </a>
-
-                @*<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                </li>
-                </ul>
-                </div>*@
             </div>
         </nav>
     </header>
     @*<div class="container">*@
-    <div>
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <div class="body-flexbox">
+        <div class="left-flexbox">
+            <ul>
+                <li><a>USER</a></li>
+                <li><a>ROLE</a></li>
+                <li><a>BOOK</a></li>
+            </ul>
+        </div>
+        <div class="content-flexbox">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
     </div>
 
     <footer class="border-top footer text-muted rootfooter">

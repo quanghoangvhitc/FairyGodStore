@@ -1,7 +1,21 @@
-﻿@{
+﻿@model IEnumerable<FairyGodStore.Models.Book>
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to FairyGodStore</h1>
+<div style="margin-left:10px; margin-right:10px;">
+    <link href="~/css/bookstyle.css" rel="stylesheet" />
+    <div class="text-center">
+        @if (Model != null)
+        {
+            @foreach (var item in Model)
+            {
+                <a class="m-box" href="/bookcontent/@item.Id">
+                    <img class="m-image" src="~/@item.Thumbnail" />
+                    <div>@item.Title</div>
+                    <div>@item.Author</div>
+                </a>
+            }
+        }
+    </div>
 </div>

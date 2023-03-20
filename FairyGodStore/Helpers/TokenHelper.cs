@@ -12,7 +12,7 @@ namespace FairyGodStore.Helpers
     {
         public static class AppJwtClaimTypes
         {
-            public const string Subject = "sub";
+            public const string ID = "id";
             public const string UserName = "username";
             public const string FullName = "full_name";
             public const string Roles = "roles";
@@ -26,7 +26,7 @@ namespace FairyGodStore.Helpers
             authClaims.AddRange(new List<Claim>
         {
             new(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString().ToLower()),
-            new(AppJwtClaimTypes.Subject, id.ToLower()),
+            new(AppJwtClaimTypes.ID, id.ToLower()),
             new(AppJwtClaimTypes.UserName, userName),
             new(AppJwtClaimTypes.FullName, fullName)
         });

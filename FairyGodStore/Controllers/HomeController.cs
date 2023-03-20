@@ -8,6 +8,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 namespace FairyGodStore.Controllers
 {
@@ -15,11 +16,13 @@ namespace FairyGodStore.Controllers
     {
         public HomeController(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             ViewBag.brand = "Home";
 
-            return View();
+            var books = await context.book.ToListAsync();
+
+            return View(books);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

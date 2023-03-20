@@ -21,13 +21,9 @@
                     </button>
 
                     <div id="myDropdown" class="dropdown-content">
-                        <a href="#home">Home</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
                         <a href="/admin">Admin Site</a>
                     </div>
                 }
-
 
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FairyGodStore @(string.IsNullOrEmpty(ViewBag.brand) ? "" : " - " + ViewBag.brand) </a>
 
@@ -59,7 +55,10 @@
     </footer>
     <script>
         function myFunction() {
-            document.getElementById("myDropdown").classList.toggle("show");
+            //if (!document.getElementById("myDropdown").classList.contains("show")
+            //    document.getElementById("myDropdown").classList.add("show");
+            //else
+                document.getElementById("myDropdown").classList.toggle("show");
         }
 
         window.onclick = function (event) {

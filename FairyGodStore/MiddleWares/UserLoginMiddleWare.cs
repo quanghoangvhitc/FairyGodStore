@@ -51,16 +51,24 @@ namespace FairyGodStore.MiddleWares
             JwtSecurityToken jwtSecurityToken = GetJwtSecurityToken(JwtToken);
             if (jwtSecurityToken != null && jwtSecurityToken.ValidTo > DateTime.UtcNow)
             {
-                string roles = jwtSecurityToken.Claims.SingleOrDefault(c => c.Type.Equals("roles"))?.Value;
-                if (roles.Split(',').Any(r => new[] { "admin", "manager" }.Any(m => m.Equals(r.ToLower()))))
+                if (context.Request.Path.Value.ToLower().StartsWith("/authen"))
                 {
-                    string url = context.Request.Path.Value.ToLower();
-                    if (!url.Contains("/admin"))
+                    string roles = jwtSecurityToken.Claims.SingleOrDefault(c => c.Type.Equals("roles"))?.Value;
+                    if (roles.Split(',').Any(r => new[] { "admin", "manager" }.Any(m => m.Equals(r.ToLower()))))
                     {
-                        context.Response.Redirect($"/admin{(url.Equals("/") ? "" : url)}");
-                        return;
+                        //string url = context.Request.Path.Value.ToLower();
+                        //if (!url.Contains("/admin"))
+                        //{
+                        //    context.Response.Redirect($"/admin{(url.Equals("/") ? "" : url)}");
+                        //    return;
+                        //}
+                        context.Response.Redirect("/admin");
                     }
-                }
+                    else
+                    {
+                        context.Response.Redirect("/");
+                    }    
+                }  
             }
             //if (jwtSecurityToken != null && jwtSecurityToken.ValidTo > DateTime.UtcNow)
             //{

@@ -1,0 +1,17 @@
+﻿.body-flexbox {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+}
+
+.left-flexbox {
+    text-align: center;
+    min-width: 200px;
+    flex-grow: 1.5;
+    border-right:1.5px solid #E5E5E5;
+}
+
+.content-flexbox {
+    margin: 10px;
+    flex-grow: 8.5;
+}
