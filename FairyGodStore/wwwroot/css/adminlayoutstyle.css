@@ -6,6 +6,7 @@ body {
     height: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
+    overflow: hidden;
 }
 
 .body-flexbox {
@@ -19,7 +20,9 @@ body {
     text-align: center;
     min-width: 200px;
     flex-grow: 1.5;
-    border-right:1.5px solid #E5E5E5;
+    position: relative;
+    border-right: 1.5px solid #E5E5E5;
+    height: 100%;
 }
 
     .left-flexbox > ul{
@@ -45,6 +48,8 @@ body {
 .content-flexbox {
     margin: 10px;
     flex-grow: 8.5;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .header {
@@ -64,6 +69,12 @@ body {
         margin-right: auto;
     }
 
+        .header > div[ctype=authen] {
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
         .header > div > a {
             text-decoration: none;
             color: black;
@@ -76,7 +87,7 @@ body {
 .footer {
     bottom: 0;
     height: 60px;
-    position: fixed;
     text-align: center;
+    position: fixed;
     background-color: #E5E5E5;
 }

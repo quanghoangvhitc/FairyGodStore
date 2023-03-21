@@ -1,0 +1,20 @@
+﻿@model IEnumerable<FairyGodStore.Models.BookChapter>
+@{
+    ViewData["Title"] = ViewBag.Title;
+}
+
+<div class="container">
+    <br />
+    @if (Model != null)
+    {
+        @foreach (var item in Model)
+        {
+            <a class="m-box" href="/bookcontent/@item.Id">
+                <div>@item.Chapter - @item.Title</div>
+            </a>
+        }
+    }
+    <br />
+    <br />
+    <br />
+</div>

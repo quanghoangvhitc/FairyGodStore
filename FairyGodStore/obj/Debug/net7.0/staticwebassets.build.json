@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KtmFrgbKWFGMga0ik3zwXJBjBdw/Ca6jrLGanl0f1YE=",
+  "Hash": "FAFfhj1HPHJUWPk9Qaiue8xb/3RgsK1IMdr4IoPwgl4=",
   "Source": "FairyGodStore",
   "BasePath": "_content/FairyGodStore",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FairyGodStore\\wwwroot",
       "Source": "FairyGodStore",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\adminlayoutstyle.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\adminlayoutstyle.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/adminlayoutstyle.css",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\css\\adminlayoutstyle.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\bookstyle.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\bookstyle.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/bookstyle.css",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bookstyle.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\defaultlayoutstyle.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\defaultlayoutstyle.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/defaultlayoutstyle.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\defaultlayoutstyle.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\loginstyle.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\loginstyle.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/loginstyle.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\loginstyle.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\MenuDropDownStyle.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\MenuDropDownStyle.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/MenuDropDownStyle.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\MenuDropDownStyle.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\pagenotfound.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\pagenotfound.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/pagenotfound.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\pagenotfound.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\sharedlayoutfooter.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\sharedlayoutfooter.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/sharedlayoutfooter.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\sharedlayoutfooter.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\site.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\site.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\favicon.ico",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\favicon.ico",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bg-tien-hiep.jpg",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bg-tien-hiep.jpg",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/bg-tien-hiep.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bg-tien-hiep.jpg"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/bookcover/15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bookcover\\15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/bookcover/5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bookcover\\5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/bookcover/e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\image\\bookcover\\e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\ic_menu.png",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\ic_menu.png",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/ic_menu.png",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\image\\ic_menu.png"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\img_avatar2.png",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\img_avatar2.png",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "image/img_avatar2.png",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\image\\img_avatar2.png"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FairyGodStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\wwwroot\\",
+      "ContentRoot": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\",
       "BasePath": "_content/FairyGodStore",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

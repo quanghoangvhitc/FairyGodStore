@@ -9,6 +9,8 @@
     <Content Remove="Extensions\**" />
     <EmbeddedResource Remove="Extensions\**" />
     <None Remove="Extensions\**" />
+    <None Remove="Controllers\BookChapterController.cs~RF2ed911a5.TMP" />
+    <None Remove="Controllers\BookContentController.cs~RF2ee6139a.TMP" />
     <None Remove="Views\Error\" />
   </ItemGroup>
 

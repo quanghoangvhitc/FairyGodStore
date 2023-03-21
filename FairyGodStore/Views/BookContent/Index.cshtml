@@ -1,7 +1,19 @@
-﻿@{
-    ViewData["Title"] = "Content Page";
+﻿@model FairyGodStore.Models.BookChapter
+@{
+    ViewData["Title"] = ViewBag.Title;
 }
 
-<div class="text-center">
-    <h1 class="display-4">FairyGodStore</h1>
+<div class="container">
+    <br />
+    <h3>@Model.Title</h3>
+    <br />
+    @if (Model != null)
+    {
+        <p>
+            @Model.bookcontent.Content
+        </p>
+    }
+    <br />
+    <br />
+    <br />
 </div>

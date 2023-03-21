@@ -11,12 +11,15 @@ namespace FairyGodStore.Controllers
     {
         public BookContentController(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
-        [HttpGet("bookcontent/{id}")]
+        [HttpGet("/bookcontent/{id}")]
         public async Task<IActionResult> Index(long id)
         {
-            var bookcontents = await context.bookContent.Where(b => b.Id == id).ToListAsync();
+            var bookchapter = await context.bookChapter.Include(bch=>bch.bookcontent).Where(b=>b.Id == id).SingleOrDefaultAsync();
+            var book = await context.book.Where(b => b.Id == bookchapter.BookId).SingleOrDefaultAsync();
 
-            return View(bookcontents);
+            ViewBag.Title = book.Title;
+
+            return View(bookchapter);
         }
     }
 }

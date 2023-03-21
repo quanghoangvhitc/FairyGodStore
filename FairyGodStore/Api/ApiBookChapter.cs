@@ -22,7 +22,7 @@ namespace FairyGodStore.Api
         {
             return Ok(await ApiResponse(async () =>
             {
-                var ret = await context.bookChapter.SingleOrDefaultAsync(b => b.Id.Equals(id));
+                var ret = await context.bookChapter.Include(bc=>bc.bookcontent).SingleOrDefaultAsync(b => b.Id.Equals(id));
                 return new ApiResult<BookChapter>(data: ret, errMess: ret == null ? MessageViewModel.DATA_EMPTY : default);
             }));
         }

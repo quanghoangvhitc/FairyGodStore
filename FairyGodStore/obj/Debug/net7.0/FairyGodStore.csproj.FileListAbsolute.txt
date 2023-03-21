@@ -1,4 +1,3 @@
-H:/Github/FairyGodStore/FairyGodStore/bin/Debug/net7.0/FairyGodStore.dll
 D:/Git/NetCore/FairyGodStore/FairyGodStore/bin/Debug/net7.0/appsettings.Development.json
 D:/Git/NetCore/FairyGodStore/FairyGodStore/bin/Debug/net7.0/appsettings.json
 D:/Git/NetCore/FairyGodStore/FairyGodStore/bin/Debug/net7.0/FairyGodStore.staticwebassets.runtime.json
@@ -563,7 +562,6 @@ D:/Git/NetCore/FairyGodStore/FairyGodStore/obj/Debug/net7.0/ref/FairyGodStore.dl
 /Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/obj/Debug/net7.0/FairyGodStore.pdb
 /Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/obj/Debug/net7.0/FairyGodStore.genruntimeconfig.cache
 /Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/obj/Debug/net7.0/ref/FairyGodStore.dll
-H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.dll
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net7.0\appsettings.Development.json
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net7.0\appsettings.json
 C:\HoangPQ\NetCore\Git\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.staticwebassets.runtime.json
@@ -1134,6 +1132,8 @@ H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.staticwebas
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.exe
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.deps.json
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.runtimeconfig.json
+H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.dll
+H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.pdb
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\Azure.Core.dll
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\Azure.Identity.dll
 H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\Humanizer.dll
@@ -1407,5 +1407,4 @@ H:\Github\FairyGodStore\FairyGodStore\obj\Debug\net7.0\FairyGodStore.dll
 H:\Github\FairyGodStore\FairyGodStore\obj\Debug\net7.0\refint\FairyGodStore.dll
 H:\Github\FairyGodStore\FairyGodStore\obj\Debug\net7.0\FairyGodStore.pdb
 H:\Github\FairyGodStore\FairyGodStore\obj\Debug\net7.0\FairyGodStore.genruntimeconfig.cache
-H:\Github\FairyGodStore\FairyGodStore\bin\Debug\net7.0\FairyGodStore.pdb
 H:\Github\FairyGodStore\FairyGodStore\obj\Debug\net7.0\ref\FairyGodStore.dll
