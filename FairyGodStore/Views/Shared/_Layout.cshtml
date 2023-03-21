@@ -7,39 +7,38 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/sharedlayoutfooter.css" />
+    <link rel="stylesheet" href="~/css/defaultlayoutstyle.css" />
     <link rel="stylesheet" href="~/css/MenuDropDownStyle.css" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            @*<div class="container">*@
+    <div class="header">
+        @*<div class="container">*@
+        @if (Context.Request.IsAdmin())
+        {
             <div>
-                @if (Context.Request.IsAdmin())
-                {
-                    <button onclick="myFunction()" class="dropbtn">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button onclick="myFunction()" class="dropbtn"></button>
 
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="/admin">Admin Site</a>
-                    </div>
-                }
-
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FairyGodStore @(string.IsNullOrEmpty(ViewBag.brand) ? "" : " - " + ViewBag.brand) </a>
-
-                @*<div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                </li>
-                </ul>
-                </div>*@
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="/admin">Admin Site</a>
+                </div>
             </div>
-        </nav>
-    </header>
+        }
+        <div>
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">FairyGodStore @(string.IsNullOrEmpty(ViewBag.brand) ? "" : " - " + ViewBag.brand) </a>
+        </div>
+        @if (Context.Request.IsLogin())
+        {
+            <div ctype="authen">
+                <a class="navbar-brand" href="/authen/logout">Logout</a>
+            </div>
+        }
+        else
+        {
+            <div ctype="authen">
+                <a class="navbar-brand" href="/authen">Login</a>
+            </div>
+        }
+    </div>
     @*<div class="container">*@
     <div>
         <main role="main" class="pb-3">
@@ -47,18 +46,18 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted rootfooter">
+    <div class="footer">
         @*<div class="container">*@
         <div>
             &copy; 2023 - FairyGodStore @*- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>*@
         </div>
-    </footer>
+    </div>
     <script>
         function myFunction() {
             //if (!document.getElementById("myDropdown").classList.contains("show")
             //    document.getElementById("myDropdown").classList.add("show");
             //else
-                document.getElementById("myDropdown").classList.toggle("show");
+            document.getElementById("myDropdown").classList.toggle("show");
         }
 
         window.onclick = function (event) {

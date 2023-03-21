@@ -62,5 +62,28 @@ namespace FairyGodStore
                 GC.Collect();
             }
         }
+
+        public static bool IsLogin(this HttpRequest req)
+        {
+            try
+            {
+                string JwtToken = req.Cookies["Authorization"];
+                if (!JwtToken.IsEmpty())
+                {
+                    JwtSecurityToken jwtSecurityToken = new JwtSecurityTokenHandler().ReadToken(JwtToken) as JwtSecurityToken;
+                    if (jwtSecurityToken != null && jwtSecurityToken.ValidTo > DateTime.UtcNow)
+                            return true;
+                }
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
+            finally
+            {
+                GC.Collect();
+            }
+        }
     }
 }

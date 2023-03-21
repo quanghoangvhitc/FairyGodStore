@@ -112,23 +112,12 @@ namespace FairyGodStore.Controllers
                 var jwtoken = HttpContext.Request.Cookies["Authorization"];
                 if (jwtoken != null)
                     HttpContext.Response.Cookies.Delete("Authorization");
-                return Ok(new
-                {
-                    Status = true,
-                    ErrMess = MessageViewModel.LOGOUT_SUCCESS,
-                    Data = "",
-                    TimeNow = DateTime.Now.Ticks
-                });
+
+                return Redirect("/");
             }
             catch
             {
-                return Ok(new
-                {
-                    Status = false,
-                    ErrMess = MessageViewModel.LOGOUT_FAIL,
-                    Data = "",
-                    TimeNow = DateTime.Now.Ticks
-                });
+                return BadRequest();
             }
         }
     }

@@ -1,9 +1,12 @@
 ﻿.dropbtn {
-    color: white;
-    padding: 5px;
+    width: 40px;
+    height: 40px;
     font-size: 16px;
     border: none;
     cursor: pointer;
+    background-image: url("/image/ic_menu.png");
+    background-size: cover;
+    background-color: transparent;
 }
 
 .dropdown {
