@@ -49,7 +49,7 @@ namespace FairyGodStore.Areas.Admin.Controllers
             }
         }
 
-        public long GetUserId()
+        internal long GetUserId()
         {
             JwtSecurityToken jwtSecurityToken = GetJwtSecurityToken(Request.Cookies["Authorization"]);
             Claim claim = jwtSecurityToken.Claims.SingleOrDefault(c => c.Type.Equals("id"));

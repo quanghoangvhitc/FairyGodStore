@@ -1,20 +1,33 @@
 ﻿<Properties StartupConfiguration="{0D36749A-263C-4F0A-B344-D6C161AF3CB6}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.FairyGodStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="FairyGodStore/Views/Error/PageNotFound.cshtml">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FairyGodStore/Startup.cs">
     <Files>
       <File FileName="FairyGodStore/Views/Error/PageNotFound.cshtml" Line="18" Column="50" />
+      <File FileName="FairyGodStore/Controllers/ErrorController.cs" Line="12" Column="19" />
+      <File FileName="FairyGodStore/Areas/Admin/Controllers/BookController.cs" Line="79" Column="41" />
+      <File FileName="FairyGodStore/Areas/Admin/Controllers/AdminBase.cs" Line="52" Column="17" />
+      <File FileName="FairyGodStore/Startup.cs" Line="72" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FairyGodStore" expanded="True">
             <Node name="FairyGodStore" expanded="True">
-              <Node name="Views" expanded="True">
-                <Node name="Error" expanded="True">
-                  <Node name="PageNotFound.cshtml" selected="True" />
+              <Node name="Dependencies" selected="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="Controllers" expanded="True" />
                 </Node>
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Error" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -22,8 +35,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.FairyGodStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

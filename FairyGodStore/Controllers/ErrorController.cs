@@ -9,7 +9,7 @@ namespace FairyGodStore.Controllers
 	{
         public ErrorController(DatabaseContext context, IConfiguration configuration) : base(context, configuration) { }
 
-        [Route("/error/404")]
+        [HttpGet("error/404")]
         public IActionResult PageNotFound()
         {
             string originalPath = "unknown";

@@ -59,51 +59,6 @@ namespace FairyGodStore
                 };
             });
 
-            //services.AddSwaggerGen(c =>
-            //{
-            //    //var jwtSecurityScheme = new OpenApiSecurityScheme
-            //    //{
-            //    //    BearerFormat = "JWT",
-            //    //    Name = "Authorization",
-            //    //    In = ParameterLocation.Header,
-            //    //    Type = SecuritySchemeType.Http,
-            //    //    Scheme = JwtBearerDefaults.AuthenticationScheme,
-            //    //    Description = "Put **_ONLY_** your JWT Bearer token on textbox below!",
-
-            //    //    Reference = new OpenApiReference
-            //    //    {
-            //    //        Id = JwtBearerDefaults.AuthenticationScheme,
-            //    //        Type = ReferenceType.SecurityScheme
-            //    //    }
-            //    //};
-
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "FairyGodStore", Version = "v1" });
-
-            //    //c.AddSecurityDefinition(jwtSecurityScheme.Reference.Id, jwtSecurityScheme);
-            //    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-            //    {
-            //        In = ParameterLocation.Header,
-            //        Description = "Please insert JWT with Bearer into field",
-            //        Name = "Authorization",
-            //        Type = SecuritySchemeType.Http
-            //    });
-
-            //    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-            //    {
-            //        {
-            //            new OpenApiSecurityScheme
-            //            {
-            //               Reference = new OpenApiReference
-            //               {
-            //                 Type = ReferenceType.SecurityScheme,
-            //                 Id = "Bearer"
-            //               }
-            //            },
-            //            new string[] { }
-            //        }
-            //    });
-            //});
-
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "FairyGodStore", Version = "v1" });

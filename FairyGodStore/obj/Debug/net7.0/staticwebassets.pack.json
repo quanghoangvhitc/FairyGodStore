@@ -1,215 +1,215 @@
 {
   "Files": [
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\MenuDropDownStyle.css",
-      "PackagePath": "staticwebassets\\css\\MenuDropDownStyle.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/MenuDropDownStyle.css",
+      "PackagePath": "staticwebassets/css/MenuDropDownStyle.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\adminlayoutstyle.css",
-      "PackagePath": "staticwebassets\\css\\adminlayoutstyle.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/adminlayoutstyle.css",
+      "PackagePath": "staticwebassets/css/adminlayoutstyle.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\bookstyle.css",
-      "PackagePath": "staticwebassets\\css\\bookstyle.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/bookstyle.css",
+      "PackagePath": "staticwebassets/css/bookstyle.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\defaultlayoutstyle.css",
-      "PackagePath": "staticwebassets\\css\\defaultlayoutstyle.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/defaultlayoutstyle.css",
+      "PackagePath": "staticwebassets/css/defaultlayoutstyle.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\loginstyle.css",
-      "PackagePath": "staticwebassets\\css\\loginstyle.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/loginstyle.css",
+      "PackagePath": "staticwebassets/css/loginstyle.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\pagenotfound.css",
-      "PackagePath": "staticwebassets\\css\\pagenotfound.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/pagenotfound.css",
+      "PackagePath": "staticwebassets/css/pagenotfound.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\sharedlayoutfooter.css",
-      "PackagePath": "staticwebassets\\css\\sharedlayoutfooter.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/sharedlayoutfooter.css",
+      "PackagePath": "staticwebassets/css/sharedlayoutfooter.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bg-tien-hiep.jpg",
-      "PackagePath": "staticwebassets\\image\\bg-tien-hiep.jpg"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/bg-tien-hiep.jpg",
+      "PackagePath": "staticwebassets/image/bg-tien-hiep.jpg"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg",
-      "PackagePath": "staticwebassets\\image\\bookcover\\15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/bookcover/15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg",
+      "PackagePath": "staticwebassets/image/bookcover/15684cdd-c7ad-48e8-ae7c-deb46eef12bf.jpg"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg",
-      "PackagePath": "staticwebassets\\image\\bookcover\\5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/bookcover/5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg",
+      "PackagePath": "staticwebassets/image/bookcover/5ea145dc-d571-4e85-92b9-5f01d3e9445a.jpg"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\bookcover\\e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg",
-      "PackagePath": "staticwebassets\\image\\bookcover\\e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/bookcover/e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg",
+      "PackagePath": "staticwebassets/image/bookcover/e38b2cbc-844a-49d3-88aa-203d61c1d0a7.jpg"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\ic_menu.png",
-      "PackagePath": "staticwebassets\\image\\ic_menu.png"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/ic_menu.png",
+      "PackagePath": "staticwebassets/image/ic_menu.png"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\image\\img_avatar2.png",
-      "PackagePath": "staticwebassets\\image\\img_avatar2.png"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/image/img_avatar2.png",
+      "PackagePath": "staticwebassets/image/img_avatar2.png"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "H:\\Github\\FairyGodStore\\FairyGodStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FairyGodStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.FairyGodStore.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FairyGodStore.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.FairyGodStore.props",
       "PackagePath": "build\\FairyGodStore.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FairyGodStore.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FairyGodStore.props",
       "PackagePath": "buildMultiTargeting\\FairyGodStore.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FairyGodStore.props",
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FairyGodStore.props",
       "PackagePath": "buildTransitive\\FairyGodStore.props"
     }
   ],
