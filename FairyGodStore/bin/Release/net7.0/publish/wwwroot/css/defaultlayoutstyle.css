@@ -1,0 +1,48 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.header {
+    top: 0;
+    height: 60px;
+    position: fixed;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+    .header > div {
+        height: 40px;
+        margin-left: 10px;
+    }
+
+        .header > div[ctype=authen] {
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
+        .header > div > a {
+            text-decoration: none;
+            color: black;
+        }
+
+            .header > div > a:hover {
+                color: #0094ff;
+            }
+
+.footer {
+    bottom: 0;
+    height: 60px;
+    position: fixed;
+    text-align: center;
+    background-color: #E5E5E5;
+}

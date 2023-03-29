@@ -9,6 +9,7 @@ using System.Security.Claims;
 
 namespace FairyGodStore.Controllers
 {
+    [ApiExplorerSettings(IgnoreApi = true)]
     public class BaseController : Controller
     {
         private DatabaseContext _context;

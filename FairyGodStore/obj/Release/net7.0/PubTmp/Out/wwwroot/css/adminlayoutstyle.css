@@ -1,0 +1,93 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    overflow: hidden;
+}
+
+.body-flexbox {
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+    /*background-color: #f1f1f1;*/
+}
+
+.left-flexbox {
+    text-align: center;
+    min-width: 200px;
+    flex-grow: 1.5;
+    position: relative;
+    border-right: 1.5px solid #E5E5E5;
+    height: 100%;
+}
+
+    .left-flexbox > ul{
+        list-style-type: none;
+        margin: 0;
+        padding:0;
+    }
+
+        .left-flexbox > ul > li {
+            background-image: linear-gradient(#87CEFA, #5CB3FF);
+            cursor: pointer;
+            text-align: left;
+            padding: 5px 5px 5px 10px;
+            font-weight: 500;
+            border-bottom: 1px solid #E5E5E5;
+        }
+
+        .left-flexbox > ul > li:hover {
+            color: white;
+            background-color: lightgray;
+        }
+
+.content-flexbox {
+    margin: 10px;
+    flex-grow: 8.5;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.header {
+    top: 0;
+    height: 60px;
+    position: fixed;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+}
+
+    .header > div {
+        height: 40px;
+        margin-right: auto;
+    }
+
+        .header > div[ctype=authen] {
+            text-decoration: none;
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
+        .header > div > a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .header > div > a:hover {
+            color: #0094ff;
+        }
+
+.footer {
+    bottom: 0;
+    height: 60px;
+    text-align: center;
+    position: fixed;
+    background-color: #E5E5E5;
+}

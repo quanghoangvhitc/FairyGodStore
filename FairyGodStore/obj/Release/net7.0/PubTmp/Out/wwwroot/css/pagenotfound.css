@@ -1,0 +1,45 @@
+﻿body {
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    position: absolute;
+    /*căn giữa màn hình*/
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+div[ctype=title] {
+    font-size: 120px;
+    font-weight: bold;
+}
+
+div[ctype=content] {
+    margin-top: 25px;
+    font-size: 60px;
+}
+
+a {
+    margin-top: 50px;
+    font-size: 27px;
+    border: 2px solid #29B6F6;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #29B6F6;
+    text-decoration: none;
+}
+
+    a:hover {
+        background-color: #E0F7FA;
+        border: 2px solid #80DEEA;
+        color: #80DEEA;
+    }

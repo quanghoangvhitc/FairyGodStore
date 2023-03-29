@@ -10,6 +10,7 @@ namespace FairyGodStore.Areas.Admin.Controllers
 {
     [Area("Admin")]
     [Authorize]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public abstract class AdminBase : Controller
     {
         private DatabaseContext _context;
