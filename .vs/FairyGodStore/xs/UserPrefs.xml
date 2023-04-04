@@ -1,24 +1,38 @@
-﻿<Properties StartupConfiguration="{0D36749A-263C-4F0A-B344-D6C161AF3CB6}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="FairyGodStore/Areas/Admin/Controllers/AdminBase.cs">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{0D36749A-263C-4F0A-B344-D6C161AF3CB6}|Default">
+  <MonoDevelop.Ide.ItemProperties.FairyGodStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FairyGodStore/Areas/Admin/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="FairyGodStore/Views/Error/PageNotFound.cshtml" />
       <File FileName="FairyGodStore/Controllers/ErrorController.cs" />
-      <File FileName="FairyGodStore/Areas/Admin/Controllers/BookController.cs" />
-      <File FileName="FairyGodStore/Areas/Admin/Controllers/AdminBase.cs" Line="33" Column="37" />
+      <File FileName="FairyGodStore/Areas/Admin/Controllers/BookController.cs" Line="1" Column="1" />
+      <File FileName="FairyGodStore/Areas/Admin/Controllers/HomeController.cs" Line="21" Column="2" />
+      <File FileName="FairyGodStore/Areas/Admin/Views/Shared/_Layout.cshtml" Line="89" Column="1" />
+      <File FileName="FairyGodStore/wwwroot/css/adminlayoutstyle.css" Line="20" Column="24" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FairyGodStore" expanded="True">
-            <Node name="FairyGodStore" expanded="True" selected="True">
+            <Node name="FairyGodStore" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Admin" expanded="True">
                   <Node name="Controllers" expanded="True" />
+                  <Node name="Views" expanded="True">
+                    <Node name="Book" expanded="True" />
+                    <Node name="Home" expanded="True" />
+                    <Node name="Shared" expanded="True">
+                      <Node name="_Layout.cshtml" selected="True" />
+                    </Node>
+                  </Node>
                 </Node>
               </Node>
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
                 <Node name="Error" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -26,11 +40,8 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.FairyGodStore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

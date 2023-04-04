@@ -15,7 +15,7 @@ namespace FairyGodStore.Areas.Admin.Controllers
         public IActionResult Index()
         {
             ViewBag.brand = "Admin";
-            return View("Views/Admin/Home.cshtml");
+            return View();
         }
     }
 }

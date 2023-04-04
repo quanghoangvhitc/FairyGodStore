@@ -36,7 +36,9 @@
             <ul>
                 <li attr-href="#">USER</li>
                 <li attr-href="#">ROLE</li>
-                <li attr-href="#">BOOK</li>
+                <li id="idadminbook" attr-href="/admin/book">BOOK</li>
+                <li id="idadminbookList" hidden attr-child="lv1" attr-href="/admin/book">List</li>
+                <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book">Create</li>
             </ul>
         </div>
         <div class="content-flexbox">
@@ -57,5 +59,35 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+    <script>
+        document.getElementById("idadminbook").addEventListener("click", actBookClick);
+        document.getElementById("idadminbookList").addEventListener("click", actRedirect(this, event));
+
+        function actBookClick() {
+            var listBook = document.getElementById("idadminbookList");
+            var createBook = document.getElementById("idadminbookCreate");
+
+            if (listBook.hasAttribute("hidden")) {
+                listBook.hidden = false;
+            }
+            else {
+                listBook.hidden = true;
+            }
+
+            if (createBook.hasAttribute("hidden")) {
+                createBook.hidden = false;
+            }
+            else {
+                createBook.hidden = true;
+            }
+        }
+
+        function actRedirect(args, event) {
+            //let red = document.getElementById("idadminbookList").getAttribute("attr-href");
+            //window.location.href = red;
+            event.preventdefault();
+                alert("123");
+        }
+    </script>
 </body>
 </html>
