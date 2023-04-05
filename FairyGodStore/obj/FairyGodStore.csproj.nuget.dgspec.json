@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj": {}
+    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {}
   },
   "projects": {
-    "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj": {
+    "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj",
+        "projectUniqueName": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
         "projectName": "FairyGodStore",
-        "projectPath": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj",
-        "packagesPath": "/Users/hoangpq/.nuget/packages/",
-        "outputPath": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/obj/",
+        "projectPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+        "packagesPath": "C:\\Users\\hoangpq\\.nuget\\packages\\",
+        "outputPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/hoangpq/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\hoangpq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -99,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

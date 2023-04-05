@@ -6,9 +6,13 @@
 
   <ItemGroup>
     <Compile Remove="Extensions\**" />
+    <Compile Remove="Views\Admin\**" />
     <Content Remove="Extensions\**" />
+    <Content Remove="Views\Admin\**" />
     <EmbeddedResource Remove="Extensions\**" />
+    <EmbeddedResource Remove="Views\Admin\**" />
     <None Remove="Extensions\**" />
+    <None Remove="Views\Admin\**" />
     <None Remove="Controllers\BookChapterController.cs~RF2ed911a5.TMP" />
     <None Remove="Controllers\BookContentController.cs~RF2ee6139a.TMP" />
     <None Remove="Views\Error\" />
@@ -38,7 +42,6 @@
     <Folder Include="wwwroot\image\bookcover\" />
     <Folder Include="Views\Error\" />
     <Folder Include="Areas\Admin\Views\Home\" />
-    <Folder Include="Views\Admin\" />
   </ItemGroup>
 
 </Project>

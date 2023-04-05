@@ -38,7 +38,7 @@
                 <li attr-href="#">ROLE</li>
                 <li id="idadminbook" attr-href="/admin/book">BOOK</li>
                 <li id="idadminbookList" hidden attr-child="lv1" attr-href="/admin/book">List</li>
-                <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book">Create</li>
+                <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book/create">Create</li>
             </ul>
         </div>
         <div class="content-flexbox">
@@ -61,7 +61,6 @@
     @await RenderSectionAsync("Scripts", required: false)
     <script>
         document.getElementById("idadminbook").addEventListener("click", actBookClick);
-        document.getElementById("idadminbookList").addEventListener("click", actRedirect(this, event));
 
         function actBookClick() {
             var listBook = document.getElementById("idadminbookList");
@@ -82,11 +81,18 @@
             }
         }
 
-        function actRedirect(args, event) {
-            //let red = document.getElementById("idadminbookList").getAttribute("attr-href");
-            //window.location.href = red;
-            event.preventdefault();
-                alert("123");
+        function doClick(id) {
+
+            var element = document.getElementById(id);
+            element.addEventListener("click", (e) => actRedirect(e, element))
+        }
+
+        doClick('idadminbookList');
+        doClick('idadminbookCreate');
+
+        function actRedirect(e, element) {
+            let red = element.getAttribute("attr-href");
+            window.location.href = red;
         }
     </script>
 </body>
