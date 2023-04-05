@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/sharedlayoutfooter.css" />
     <link rel="stylesheet" href="~/css/adminlayoutstyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <div class="header">
@@ -36,9 +37,15 @@
             <ul>
                 <li attr-href="#">USER</li>
                 <li attr-href="#">ROLE</li>
-                <li id="idadminbook" attr-href="/admin/book">BOOK</li>
+                <li id="idadminbook" ctype="root" attr-href="/admin/book">
+                    <div>
+                        <label>BOOK</label>
+                        <i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </div>
+                </li>
                 <li id="idadminbookList" hidden attr-child="lv1" attr-href="/admin/book">List</li>
                 <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book/create">Create</li>
+                <li attr-href="#">CATEGORY</li>
             </ul>
         </div>
         <div class="content-flexbox">
@@ -61,29 +68,24 @@
     @await RenderSectionAsync("Scripts", required: false)
     <script>
         document.getElementById("idadminbook").addEventListener("click", actBookClick);
-
+        
         function actBookClick() {
-            var listBook = document.getElementById("idadminbookList");
-            var createBook = document.getElementById("idadminbookCreate");
-
-            if (listBook.hasAttribute("hidden")) {
-                listBook.hidden = false;
+            if (sessionStorage.getItem("bookHidden") != null) {
+                document.getElementById("idadminbookList").hidden = true;
+                document.getElementById("idadminbookCreate").hidden = true;
+                sessionStorage.removeItem("bookHidden");
+                document.getElementById("idadminbook").querySelector("i").className = "fa fa-caret-right";
             }
             else {
-                listBook.hidden = true;
-            }
-
-            if (createBook.hasAttribute("hidden")) {
-                createBook.hidden = false;
-            }
-            else {
-                createBook.hidden = true;
+                document.getElementById("idadminbookList").hidden = false;
+                document.getElementById("idadminbookCreate").hidden = false;
+                sessionStorage.setItem("bookHidden", false);
+                document.getElementById("idadminbook").querySelector("i").className = "fa fa-caret-down";
             }
         }
 
         function doClick(id) {
-
-            var element = document.getElementById(id);
+            let element = document.getElementById(id);
             element.addEventListener("click", (e) => actRedirect(e, element))
         }
 
@@ -91,8 +93,13 @@
         doClick('idadminbookCreate');
 
         function actRedirect(e, element) {
-            let red = element.getAttribute("attr-href");
-            window.location.href = red;
+            window.location.href = element.getAttribute("attr-href");
+        }
+
+        if (sessionStorage.getItem("bookHidden") != null) {
+            document.getElementById("idadminbook").querySelector("i").className = "fa fa-caret-down";
+            document.getElementById("idadminbookList").hidden = false;
+            document.getElementById("idadminbookCreate").hidden = false;
         }
     </script>
 </body>
