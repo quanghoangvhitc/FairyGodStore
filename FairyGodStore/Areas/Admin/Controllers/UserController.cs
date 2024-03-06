@@ -14,6 +14,7 @@ namespace FairyGodStore.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
+
             return View("Views/Admin/Index.cshtml");
         }
     }

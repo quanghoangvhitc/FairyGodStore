@@ -33,18 +33,20 @@ body {
     }
 
         .left-flexbox > ul > li {
-            background-image: linear-gradient(#F4F6F7,#ECF0F1);
+/*            background-image: linear-gradient(#F4F6F7,#ECF0F1);*/
             cursor: pointer;
             text-align: left;
             padding: 5px 5px 5px 10px;
             font-weight: 500;
             border-bottom: 1px solid #E5E5E5;
+            background-color: #F4F6F7;
             width: 100%;
             height: 35px;
         }
 
             .left-flexbox > ul > li[ctype=root] {
-                background-image: linear-gradient(#D6EAF8,#D6EAF8);
+                /*background-image: linear-gradient(#D6EAF8,#D6EAF8);*/
+                background-color: #D6EAF8;
             }
 
                     .left-flexbox > ul > li[ctype=root] > div > i {

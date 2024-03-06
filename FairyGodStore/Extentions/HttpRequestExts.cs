@@ -85,5 +85,21 @@ namespace FairyGodStore
                 GC.Collect();
             }
         }
+
+        public static string GetSessionString(this HttpContext ctx, string key)
+        {
+            try
+            {
+                return ctx.Session.GetString(key);
+            }
+            catch
+            {
+                return string.Empty;
+            }
+            finally
+            {
+                GC.Collect();
+            }
+        }
     }
 }

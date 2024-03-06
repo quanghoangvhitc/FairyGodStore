@@ -35,6 +35,8 @@ namespace FairyGodStore
         {
             services.AddControllersWithViews().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
+            services.AddSession();
+
             services.AddDbContext<DatabaseContext>(option =>
             {
                 option.UseSqlServer(Configuration.GetConnectionString("DefaultDB"));
@@ -89,7 +91,7 @@ namespace FairyGodStore
             });
 
             app.UseCookiePolicy();
-            //app.UseSession();
+            app.UseSession();
 
             app.Use(async (context, next) =>
             {

@@ -11379,25 +11379,30 @@
     ]
   },
   "packageFolders": {
-    "/Users/hoangpq/.nuget/packages/": {}
+    "C:\\Users\\hoangpq\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj",
+      "projectUniqueName": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
       "projectName": "FairyGodStore",
-      "projectPath": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/FairyGodStore.csproj",
-      "packagesPath": "/Users/hoangpq/.nuget/packages/",
-      "outputPath": "/Volumes/TOURO S/HoangPQ/NET CORE/GitHub/FairyGodStore/FairyGodStore/obj/",
+      "projectPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\FairyGodStore.csproj",
+      "packagesPath": "C:\\Users\\hoangpq\\.nuget\\packages\\",
+      "outputPath": "C:\\HoangPQ\\NetCore\\Git\\FairyGodStore\\FairyGodStore\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/hoangpq/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\hoangpq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11468,6 +11473,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.15, 7.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -11476,7 +11499,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

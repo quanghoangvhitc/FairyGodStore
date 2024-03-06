@@ -43,8 +43,16 @@
                         <i class="fa fa-caret-right" aria-hidden="true"></i>
                     </div>
                 </li>
-                <li id="idadminbookList" hidden attr-child="lv1" attr-href="/admin/book">List</li>
-                <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book/create">Create</li>
+@*                @if (!Context.GetSessionString("bookHidden").IsEmpty())
+                {
+                    <li id="idadminbookList" attr-child="lv1" attr-href="/admin/book">List</li>
+                    <li id="idadminbookCreate" attr-child="lv1" attr-href="/admin/book/create">Create</li>
+                }
+                else
+                {*@
+                    <li id="idadminbookList" hidden attr-child="lv1" attr-href="/admin/book">List</li>
+                    <li id="idadminbookCreate" hidden attr-child="lv1" attr-href="/admin/book/create">Create</li>
+ @*               }*@
                 <li attr-href="#">CATEGORY</li>
             </ul>
         </div>
